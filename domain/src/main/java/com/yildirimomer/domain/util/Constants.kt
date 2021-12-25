@@ -2,7 +2,6 @@ package com.yildirimomer.domain.util
 
 /**
  * Created by OMER YILDIRIM on 12/24/21.
- * yildirimomer01@gmail.com
  */
 object Constants {
     const val TMDB_BASE_URL = "https://api.themoviedb.org/3/"

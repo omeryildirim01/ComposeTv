@@ -6,7 +6,6 @@ import javax.inject.Inject
 
 /**
  * Created by OMER YILDIRIM on 12/24/21.
- * yildirimomer01@gmail.com
  */
 class NowPlayingUseCase  @Inject constructor(
     private val composeTvGateway: ComposeTvGateway,

@@ -11,8 +11,8 @@ object Sdk {
 }
 
 object Kotlin {
-    const val compiler = "1.5.31"
-    const val compilerExtension = "1.1.0-beta04"
+    const val compiler = "1.6.0"
+    const val compilerExtension = "1.0.5"
     const val gradle = "1.6.0"
     const val coroutines = "1.5.2"
 }
@@ -31,8 +31,8 @@ object AndroidX {
     const val appcompat = "1.4.0"
     const val compose = "1.0.5"
     const val activityCompose = "1.4.0"
-    const val navigationCompose = "2.4.0-beta02"
-    const val hiltNavigationCompose = "1.0.0-beta01"
+    const val navigationCompose = "2.4.0-rc01"
+    const val hiltNavigationCompose = "1.0.0-rc01"
     const val lifecycle = "2.4.0"
     const val lifecycleCompose = "2.4.0"
     const val pagingCompose = "1.0.0-alpha14"

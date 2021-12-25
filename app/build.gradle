@@ -42,8 +42,8 @@ android {
         compose true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion compose_version
-        kotlinCompilerVersion '1.5.21'
+        kotlinCompilerExtensionVersion Kotlin.compilerExtension
+        kotlinCompilerVersion Kotlin.compiler
     }
     packagingOptions {
         resources {
@@ -67,7 +67,9 @@ dependencies {
 
     // AndroidX
     implementation "androidx.core:core-ktx:${AndroidX.core}"
-    implementation "androidx.annotation:annotation:${AndroidX.annotations}"
+    implementation "androidx.annotation:annotation:1.3.0"
+    // To use the Java-compatible @Experimental API annotation
+    implementation "androidx.annotation:annotation-experimental:1.2.0"
     implementation "androidx.appcompat:appcompat:${AndroidX.appcompat}"
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:${AndroidX.lifecycle}"
     implementation "androidx.lifecycle:lifecycle-viewmodel-compose:${AndroidX.lifecycleCompose}"
